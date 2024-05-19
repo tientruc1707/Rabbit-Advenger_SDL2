@@ -14,7 +14,7 @@ GSIntro::~GSIntro()
 void GSIntro::Init()
 {
 
-	auto texture = ResourceManagers::GetInstance()->GetTexture("logo1.tga");
+	auto texture = ResourceManagers::GetInstance()->GetTexture("Enviroment/T-prime.jpg");
 
 	m_logo = std::make_shared<Sprite2D>(texture, SDL_FLIP_NONE);
 	m_logo->SetSize(150, 150);
