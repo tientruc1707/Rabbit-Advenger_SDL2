@@ -44,7 +44,7 @@ void GSPlay::Init()
 	obj->SetSize(40, 50);
 	obj->Set2DPosition(240, 400);
 	
-	//Camera::GetInstance()->SetTarget(obj);
+	Camera::GetInstance()->SetTarget(obj);
 	m_listAnimation.push_back(obj);
 
 	m_KeyPress = 0;
